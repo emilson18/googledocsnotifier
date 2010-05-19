@@ -127,8 +127,6 @@ namespace GoogleDocsNotifier
 
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            //this.WindowState = FormWindowState.Minimized;
-            //this.WindowState = FormWindowState.Normal;
             this.Show();
         }
 
