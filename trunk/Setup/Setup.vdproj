@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_0EE5F54E934E4A17B9315394119BD9CC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_4547A7647AD66C6185F80C7D2BB2C8B6"
         "OwnerKey" = "8:_BD9A52BA369AF64D0C9CF4C4541E9213"
         "MsmSig" = "8:_UNDEFINED"
@@ -59,6 +65,12 @@
         {
         "MsmKey" = "8:_CAD08E73758EAE816DB5743833EEB2C4"
         "OwnerKey" = "8:_BD9A52BA369AF64D0C9CF4C4541E9213"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F5261BFE5BC1497CA225FC527AF1F50F"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -147,6 +159,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5.SP1"
+                    {
+                    "Name" = "8:.NET Framework 3.5 SP1"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5.SP1"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
     }
@@ -205,6 +230,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0EE5F54E934E4A17B9315394119BD9CC"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Visual Studio 2005\\My Database\\Pictures\\Icon3.ico"
+            "TargetName" = "8:Icon3.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_5E4D984D016740848024CF5EB643EDAA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4547A7647AD66C6185F80C7D2BB2C8B6"
             {
             "AssemblyRegister" = "3:1"
@@ -318,6 +363,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F5261BFE5BC1497CA225FC527AF1F50F"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Modules Material\\A Is The Only Option, A+ Otherwise\\CS3215\\Graphic Design\\Installation Setup Logo GDN V1.bmp"
+            "TargetName" = "8:Installation Setup Logo GDN V1.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_5E4D984D016740848024CF5EB643EDAA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -356,6 +421,17 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_36CEA7F4E7134AC6882A74F811B40329"
+                    {
+                    "Name" = "8:Google Docs Notifier"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_72C7B08FC8B44692BF671906A54FDBA7"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
         }
@@ -374,14 +450,14 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Google Docs Notifier"
-        "ProductCode" = "8:{C6CA161D-2ABB-459D-8C27-0436157851B0}"
-        "PackageCode" = "8:{4F89D95D-895E-4226-89B2-EC6FAF91B589}"
+        "ProductCode" = "8:{B5EEB8C0-B7BF-49D5-A79D-1881A2CE400C}"
+        "PackageCode" = "8:{210F8323-97AF-47D0-AD13-16E0445C9139}"
         "UpgradeCode" = "8:{9D077FDE-DB40-4587-8BA0-D7688BBD0F54}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:2.0.0"
         "Manufacturer" = "8:GCL Project"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -494,6 +570,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_5CD8A5330D3B4FBEA1E321F5DA6017C4"
+            {
+            "Name" = "8:Google Docs Notifier"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_9A8BA4E1A9FC45428EB28A9AFD7B12A7"
+            "Folder" = "8:_36CEA7F4E7134AC6882A74F811B40329"
+            "WorkingFolder" = "8:_5E4D984D016740848024CF5EB643EDAA"
+            "Icon" = "8:_0EE5F54E934E4A17B9315394119BD9CC"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_836FDC94282C4EC993A033746C89055E"
+            {
+            "Name" = "8:Uninstall Google Docs Notifier"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_B87D331920FF4ABDB97A90D1A0C2BA27"
+            "Folder" = "8:_36CEA7F4E7134AC6882A74F811B40329"
+            "WorkingFolder" = "8:_5E4D984D016740848024CF5EB643EDAA"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
@@ -521,7 +625,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_F5261BFE5BC1497CA225FC527AF1F50F"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -565,7 +670,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_F5261BFE5BC1497CA225FC527AF1F50F"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -587,7 +693,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_F5261BFE5BC1497CA225FC527AF1F50F"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -599,7 +706,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:WARNING: This application is for learning purposes only. It is not a commercial version. It is free, as in no money required for its use. Users are not allowed to sell or redistribute this software, in whole or in part, either by itself or as part of another piece of software, without the author's permission. The author claims or offers no responsibility, liability or warranty for any pain that may occur from the use of this application."
+                            "Value" = "8:WARNING: This application is not a commercial version. It is free, as in no money required for its use. Users are not allowed to sell or redistribute this software, in whole or in part, either by itself or as part of another piece of software, without the author's permission. The author claims or offers no responsibility, liability or warranty for any pain that may occur from the use of this application."
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -635,7 +742,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_F5261BFE5BC1497CA225FC527AF1F50F"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "InstallAllUsersVisible"
@@ -685,7 +793,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_F5261BFE5BC1497CA225FC527AF1F50F"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "UpdateText"
@@ -895,7 +1004,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_9A8BA4E1A9FC45428EB28A9AFD7B12A7"
             {
-            "SourcePath" = "8:..\\GoogleDocsNotifier\\obj\\Debug\\GoogleDocsNotifier.exe"
+            "SourcePath" = "8:..\\GoogleDocsNotifier\\obj\\Release\\GoogleDocsNotifier.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_5E4D984D016740848024CF5EB643EDAA"
