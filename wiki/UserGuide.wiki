@@ -11,7 +11,7 @@ Before you start, you may want to know more about [http://docs.google.com/suppor
   * [UserGuide#Getting_Started Getting started]
     * [UserGuide#Downloading_and_Installing Downloading and installing]
     * [UserGuide#Getting_Around Getting around]
-  * [UserGuide#Contact_Us Contact me]
+  * [UserGuide#Contact_Me Contact me]
 
 ==Getting Started==
 
@@ -46,6 +46,6 @@ If there is any document in Google Docs being updated, you will also be notified
 [http://www.comp.nus.edu.sg/~gohchunl/UserGuide_04.png]
 
 
-==Contact Us==
+==Contact Me==
 
 Please [mailto:gclin009@gmail.com email me] your feedback about your experience to help me improve Google Docs Notifier.
