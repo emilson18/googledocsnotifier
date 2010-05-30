@@ -1,0 +1,11 @@
+#summary This user guide describes Google Docs Notifier 1.0.
+
+== Introduction ==
+
+Welcome to the user guide for Google Docs Notifier! These guides are designed to help you understand how to use the features in Google Docs Notifier. Just follow the handy guide below and enjoy the journey!
+
+Before you start, you may want to know more about [http://docs.google.com/support/bin/topic.py?hl=en&topic=15114 Google Docs].
+
+== Content ==
+
+==Getting Started==
