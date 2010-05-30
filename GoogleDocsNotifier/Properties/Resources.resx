@@ -118,15 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Google Docs Notifier Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Google Docs Notifier Logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Planetarian" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Planetarian.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Planetarian 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Planetarian 2.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Google Docs Notifier Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Google Docs Notifier Logo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

@@ -60,13 +60,6 @@ namespace GoogleDocsNotifier.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap Google_Docs_Notifier_Logo {
-            get {
-                object obj = ResourceManager.GetObject("Google Docs Notifier Logo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
         internal static System.Drawing.Bitmap Google_Docs_Notifier_Logo1 {
             get {
                 object obj = ResourceManager.GetObject("Google Docs Notifier Logo1", resourceCulture);
@@ -77,20 +70,6 @@ namespace GoogleDocsNotifier.Properties {
         internal static System.Drawing.Bitmap Google_Docs_Notifier_Logo2 {
             get {
                 object obj = ResourceManager.GetObject("Google Docs Notifier Logo2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap Planetarian {
-            get {
-                object obj = ResourceManager.GetObject("Planetarian", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap Planetarian_2 {
-            get {
-                object obj = ResourceManager.GetObject("Planetarian 2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
