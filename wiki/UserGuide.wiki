@@ -1,4 +1,5 @@
 #summary This user guide describes Google Docs Notifier 1.0.
+#labels Featured
 
 == Introduction ==
 
