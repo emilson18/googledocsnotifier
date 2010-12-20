@@ -46,7 +46,7 @@ After logging in, you will be redirected to the page where you can see a list of
 
 [http://www.comp.nus.edu.sg/~gohchunl/UserGuide_03.png]
 
-As long as there are changes made to existing documents or new documents shared with you, then there will be a notification message popped out. The message will be shown every time you run the program also. However, if there is any document deleted from your Google Docs, no notification will be displayed.
+As long as there are changes made to existing documents or there are new documents shared with you, then there will be a notification message popped out. The message will be shown every time you run the program also. However, if there is any document deleted from your Google Docs, no notification will be displayed.
 
 [http://www.comp.nus.edu.sg/~gohchunl/UserGuide_04.png]
 
