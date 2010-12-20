@@ -10,6 +10,7 @@ using System.Diagnostics;
 using Google.GData.Documents;
 using Google.GData.Client;
 using Google.GData.Extensions;
+using System.Xml;
 
 namespace GoogleDocsNotifier
 {
