@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="GoogleDocsNotifier.App" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleDocsNotifier.DocItem" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAAAAAAAAAYAAAhAAAggAAAAIAAAQAAQAAAAA=</HashCode>
+      <FileName>DocItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.118" />
+  </Class>
+  <Class Name="GoogleDocsNotifier.DocumentsFeedParser">
+    <Position X="5.75" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABAGAAACDAkEQAABABEAAABACAAAIAAAAIAA=</HashCode>
+      <FileName>DocumentsFeedParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleDocsNotifier.MainWindow">
+    <Position X="13.75" Y="0.5" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>GAAABFQABAABQAAAAAACBQgIsAgGoAlAIAoyAAAgNIE=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleDocsNotifier.Events.ListViewUpdatedEventArgs" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Events\ListViewUpdatedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleDocsNotifier.Events.NotifyIconUpdatedEventArgs" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAABEAAAEAABAAAAAAQAAAAEAAAIAAAAAA=</HashCode>
+      <FileName>Events\NotifyIconUpdatedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleDocsNotifier.Events.ProgressChangedEventArgs" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Events\ProgressChangedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleDocsNotifier.Events.StatusChangedEventArgs" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAAAAA=</HashCode>
+      <FileName>Events\StatusChangedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleDocsNotifier.Properties.Settings" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAACAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="GoogleDocsNotifier.ListViewUpdatedHandler" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentsFeedParser.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="GoogleDocsNotifier.StatusChangedHandler" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentsFeedParser.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="GoogleDocsNotifier.ProgressChangedHandler" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentsFeedParser.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="GoogleDocsNotifier.NotifyIconUpdatedHandler" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentsFeedParser.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
