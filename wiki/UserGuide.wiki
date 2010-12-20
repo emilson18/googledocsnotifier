@@ -1,9 +1,9 @@
-#summary This user guide describes Google Docs Notifier 1.0.
+#summary This user guide describes Google Docs Notifier 2.
 #labels Featured
 
 == Introduction ==
 
-Welcome to the user guide for Google Docs Notifier! These guides are designed to help you understand how to use the features in Google Docs Notifier. Just follow the handy guide below and enjoy the journey!
+Welcome to the user guide for Google Docs Notifier 2! These guides are designed to help you understand how to use the features in Google Docs Notifier 2. Just follow the handy guide below and enjoy the journey!
 
 Before you start, you may want to know more about [http://docs.google.com/support/bin/topic.py?hl=en&topic=15114 Google Docs].
 
@@ -19,6 +19,8 @@ Before you start, you may want to know more about [http://docs.google.com/suppor
 ===Downloading and Installing===
 
 *NOTE* Make sure you are running a Windows operating system (Windows XP, Windows Vista or Windows 7).
+
+If you downloaded the first version of Google Docs Notifier before, then please make sure you uninstall it before you install this new version of Google Docs Notifier in your computer.
 
 Installation steps are as follows:
  # Uninstall previous versions
@@ -36,13 +38,15 @@ You can find the shortcut of the Google Docs Notifier in the Start Menu after yo
 
 In the login screen, you just have to key in the user name and password of your Google Account. If you do not have one, please register it [https://www.google.com/accounts/NewAccount here] for free.
 
+If you would like to store your password in the software so that you do not have to login each time you visit the application, you can check the "Keep me logged in" checkbox option. You are advised *not to check this checkbox if you are using a shared computer*.
+
 [http://www.comp.nus.edu.sg/~gohchunl/UserGuide_02.png]
 
-After logging in, you will be redirected to the page where you can see a list of newly updated documents in your Google Docs. To view the document, you just need to double click on the name of the document.
+After logging in, you will be redirected to the page where you can see a list of *unread documents* as well as their updated date, time and the name of the person who updated them. To view the document, you just need to double click on its name.
 
 [http://www.comp.nus.edu.sg/~gohchunl/UserGuide_03.png]
 
-If there is any document in Google Docs being updated, you will also be notified. Double click on the "Red Rocket" icon to view the list of newly updated documents.
+Meanwhile, a number showing the total number of unread documents will be displayed in the system tray.
 
 [http://www.comp.nus.edu.sg/~gohchunl/UserGuide_04.png]
 
