@@ -50,7 +50,7 @@ As long as there are changes made to existing documents or new documents shared 
 
 [http://www.comp.nus.edu.sg/~gohchunl/UserGuide_04.png]
 
-Meanwhile, a number showing the total number of unread documents will be displayed in the system tray.
+Meanwhile, a number showing the total number of unread documents will be displayed on the system tray.
 
 [http://www.comp.nus.edu.sg/~gohchunl/UserGuide_05.png]
 
