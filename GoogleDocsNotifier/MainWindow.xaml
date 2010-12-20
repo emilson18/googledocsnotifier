@@ -1,0 +1,87 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	x:Class="GoogleDocsNotifier.MainWindow"
+	x:Name="win_main"
+	Title="Google Docs Notifier"
+	Width="329" Height="481" mc:Ignorable="d" WindowStartupLocation="CenterScreen" Visibility="Visible" StateChanged="win_main_StateChanged" Icon="Application.ico" MinWidth="329" MinHeight="481">
+
+	<Grid x:Name="LayoutRoot">
+		<Label Margin="1,37.83,0,0" VerticalAlignment="Top" Height="27" Content="Unread documents:" HorizontalAlignment="Left" Width="143" FontWeight="Bold"/>
+		<Image Margin="0,-0.012,0,0" VerticalAlignment="Top" Height="32.024" Source="Mesh Control Panel Header (Without Border) - Centre.png" Stretch="Fill" StretchDirection="UpOnly"/>
+		<Image HorizontalAlignment="Left" Margin="1,2,0,0" VerticalAlignment="Top" Width="121" Height="76.299" Source="GDN Logo.png"/>
+		<Label x:Name="lb_signOut" Cursor="Hand" HorizontalAlignment="Right" Margin="0,2,8,0" VerticalAlignment="Top" Width="59" Height="27.83" Content="Sign Out" Foreground="White" MouseDown="lb_signOut_MouseDown"/>
+		<ListView x:Name="lv_documents" Margin="0,64.83,0,27">
+			<ListView.Resources>
+				<Style TargetType="{x:Type ListViewItem}">
+                    <Setter Property="ToolTip" Value="{Binding DocName}" />
+					<EventSetter Event="MouseDoubleClick" Handler="ListViewItem_MouseDoubleClick" />
+				</Style>
+			</ListView.Resources>
+			<ListView.View>
+				<GridView>
+                    <GridView.ColumnHeaderContainerStyle>
+                        <Style>
+                            <Setter Property="UIElement.Visibility" Value="Collapsed"/>
+                        </Style>
+                    </GridView.ColumnHeaderContainerStyle>
+                    <GridViewColumn x:Name="co_theDocumentColumn" Width="330" Header="Documents">
+						<GridViewColumn.CellTemplate>
+							<DataTemplate>
+								<StackPanel Orientation="Vertical">
+									<StackPanel Orientation="Horizontal">
+										<TextBlock Text="{Binding DocType}" FontSize="12" />
+										<TextBlock Text="{Binding DocName}" FontWeight="Bold" FontSize="12"/>
+									</StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+                                        <TextBlock Text="{Binding ModifiedDate}" FontWeight="Bold" FontSize="10" Foreground="Black" />
+										<TextBlock Text="{Binding Updater}" FontSize="10" Foreground="Black" />
+									</StackPanel>
+								</StackPanel>
+							</DataTemplate>
+						</GridViewColumn.CellTemplate>
+					</GridViewColumn>
+				</GridView>
+			</ListView.View>
+		</ListView>
+        <Grid x:Name="gb_progressbar" Margin="1,33.83,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="57"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="169"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <ProgressBar x:Name="pb_downloadingProgress" Margin="11,17.66,13,19.34" Grid.Column="1" Grid.Row="1" d:LayoutOverrides="VerticalAlignment"/>
+        </Grid>
+        <Grid x:Name="gb_loginPage" Margin="-1,0,0,-1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="321"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+			<Grid.Background>
+				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+					<GradientStop Color="#FF8C99EC" Offset="0"/>
+					<GradientStop Color="White" Offset="0.66"/>
+					<GradientStop Color="#FF8C99EC" Offset="1"/>
+					<GradientStop Color="White" Offset="0.821"/>
+				</LinearGradientBrush>
+			</Grid.Background>
+			<Image Margin="57.352,133,0,0" VerticalAlignment="Top" Height="78" Source="GDN Logo.png" Grid.Column="1" HorizontalAlignment="Left" Width="193.548"/>
+			<Rectangle Stroke="#FF8C99EC" Margin="5.072,183,0,0" Grid.Column="1" HorizontalAlignment="Left" Width="306" VerticalAlignment="Top" Height="168"/>
+			<TextBox x:Name="tb_accountName" Margin="108.072,196,0,0" VerticalAlignment="Top" Height="26" TextWrapping="Wrap" TabIndex="1" Grid.Column="1" HorizontalAlignment="Left" Width="190"/>
+			<Label HorizontalAlignment="Left" Margin="4.072,196,0,0" VerticalAlignment="Top" Width="104" Height="29" Content="Google Account:" Grid.Column="1"/>
+			<Label HorizontalAlignment="Left" Margin="39.072,226,0,0" Width="69" Content="Password:" Grid.Column="1" VerticalAlignment="Top" Height="26"/>
+			<Button x:Name="btn_signIn" Margin="123.072,316,0,0" VerticalAlignment="Top" Height="22" Content="Sign In" Click="btn_signIn_Click" TabIndex="3" Grid.Column="1" HorizontalAlignment="Left" Width="74.108"/>
+			<PasswordBox x:Name="tb_password" Margin="108.072,226,0,0" TabIndex="2" KeyDown="tb_password_KeyDown" Grid.Column="1" Height="26" VerticalAlignment="Top" d:LayoutOverrides="Height" HorizontalAlignment="Left" Width="190"/>
+			<Label Margin="103.072,267,0,0" VerticalAlignment="Top" Height="28" Content="(not recommended on a shared computer)" FontSize="9.333" Grid.Column="1" HorizontalAlignment="Left" Width="190"/>
+			<CheckBox x:Name="cb_rememberMe" Margin="108.072,256,89.044,0" VerticalAlignment="Top" Height="20" Content="Keep me logged in" Grid.Column="1"/>
+		</Grid>
+		<Label x:Name="lb_messageLabel" Margin="1,0,0,-1" VerticalAlignment="Bottom" Height="28" Content=""/>
+	</Grid>
+</Window>

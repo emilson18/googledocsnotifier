@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleDocsNotifier", "GoogleDocsNotifier\GoogleDocsNotifier.csproj", "{06A487A9-331B-453F-9DE7-2BD26D60123F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "GDNSetup", "GDNSetup\GDNSetup.vdproj", "{53E57524-CC3F-4E1C-943A-1AC550719616}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06A487A9-331B-453F-9DE7-2BD26D60123F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A487A9-331B-453F-9DE7-2BD26D60123F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A487A9-331B-453F-9DE7-2BD26D60123F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A487A9-331B-453F-9DE7-2BD26D60123F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E57524-CC3F-4E1C-943A-1AC550719616}.Debug|Any CPU.ActiveCfg = Debug
+		{53E57524-CC3F-4E1C-943A-1AC550719616}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
