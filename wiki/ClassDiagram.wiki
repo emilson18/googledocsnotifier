@@ -1,8 +1,6 @@
 #summary This page describes the main classes in Google Docs Notifier 2.
 #labels Featured,Phase-Implementation
 
-[http://www.comp.nus.edu.sg/~gohchunl/Google%20Docs%20Notifier%202%20Class%20Diagram.png]
-
 = MainWindow =
 It is responsible for the user interface. Login and logout are done in this class.
 
@@ -11,3 +9,5 @@ It will parse the Google Docs feed in order to retrieve relevant information and
 
 = DocItem =
 It stores information about a Google document entry. The content of listView control in MainWindow is binded to a collection of DocItem entries.
+
+[http://www.comp.nus.edu.sg/~gohchunl/Google%20Docs%20Notifier%202%20Class%20Diagram.png]
