@@ -46,9 +46,13 @@ After logging in, you will be redirected to the page where you can see a list of
 
 [http://www.comp.nus.edu.sg/~gohchunl/UserGuide_03.png]
 
-Meanwhile, a number showing the total number of unread documents will be displayed in the system tray.
+As long as there are changes made to existing documents or new documents shared with you, then there will be a notification message popped out. The message will be shown every time you run the program also. However, if there is any document deleted from your Google Docs, no notification will be displayed.
 
 [http://www.comp.nus.edu.sg/~gohchunl/UserGuide_04.png]
+
+Meanwhile, a number showing the total number of unread documents will be displayed in the system tray.
+
+[http://www.comp.nus.edu.sg/~gohchunl/UserGuide_05.png]
 
 
 ==Contact Me==
