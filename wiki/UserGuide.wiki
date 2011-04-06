@@ -57,4 +57,4 @@ Meanwhile, a number showing the total number of unread documents will be display
 
 ==Contact Me==
 
-Please [mailto:gclin009@gmail.com email me] your feedback about your experience to help me improve Google Docs Notifier.
+Please email me (my Gmail address is shown in the screenshot above =P) your feedback about your experience to help me improve Google Docs Notifier.
