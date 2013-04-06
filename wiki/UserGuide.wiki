@@ -34,25 +34,25 @@ If you encounter any difficulties while installing, please contact me.
 
 You can find the shortcut of the Google Docs Notifier in the Start Menu after you install it.
 
-[http://www.comp.nus.edu.sg/~gohchunl/UserGuide_01.png]
+[https://googledocsnotifier.googlecode.com/svn/wiki/UserGuide_01.png]
 
 In the login screen, you just have to key in the user name and password of your Google Account. If you do not have one, please register it [https://www.google.com/accounts/NewAccount here] for free.
 
 If you would like to store your password in the software so that you do not have to login each time you visit the application, you can check the "Keep me logged in" checkbox option. You are advised *not to check this checkbox if you are using a shared computer*.
 
-[http://www.comp.nus.edu.sg/~gohchunl/UserGuide_02.png]
+[https://googledocsnotifier.googlecode.com/svn/wiki/UserGuide_02.png]
 
 After logging in, you will be redirected to the page where you can see a list of *unread documents* as well as their updated date, time and the name of the person who updated them. To view the document, you just need to double click on its name.
 
-[http://www.comp.nus.edu.sg/~gohchunl/UserGuide_03.png]
+[https://googledocsnotifier.googlecode.com/svn/wiki/UserGuide_03.png]
 
 As long as there are changes made to existing documents or there are new documents shared with you, then there will be a notification message popped out. The message will be shown every time you run the program also. However, if there is any document deleted from your Google Docs, no notification will be displayed.
 
-[http://www.comp.nus.edu.sg/~gohchunl/UserGuide_04.png]
+[https://googledocsnotifier.googlecode.com/svn/wiki/UserGuide_04.png]
 
 Meanwhile, a number showing the total number of unread documents will be displayed on the system tray.
 
-[http://www.comp.nus.edu.sg/~gohchunl/UserGuide_05.png]
+[https://googledocsnotifier.googlecode.com/svn/wiki/UserGuide_05.png]
 
 
 ==Contact Me==
